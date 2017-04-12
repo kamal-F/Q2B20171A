@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<logbarang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="barang.xsd">
+  <barang>
+    <kode>ppp</kode>
+    <satuan>liter</satuan>
+    <harga>1900</harga>
+    <asal>
+      <pt>pt ABC</pt>
+      <kodewil>0</kodewil>
+    </asal>
+    <tujuan>
+      <pt>pt</pt>
+      <kodewil>100</kodewil>
+    </tujuan>
+  </barang>
+  
+<barang>
+    <kode>909</kode>
+    <satuan>liter</satuan>
+    <harga>5000</harga>
+    <asal>
+      <pt>pt XYZ</pt>
+      <kodewil>007</kodewil>
+    </asal>
+    <tujuan>
+      <pt>pt</pt>
+      <kodewil>0</kodewil>
+    </tujuan>
+  </barang>
+</logbarang>
