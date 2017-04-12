@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logbarang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="soal2b2017.xsd">
+  <barang>
+    <kode></kode>
+    <satuan>kg</satuan>
+    <harga>1900</harga>
+    <asal>
+      <pt>pt ABC</pt>
+      <kodewil>0</kodewil>
+    </asal>
+    <tujuan>
+      <pt>pt</pt>
+      <kodewil>100</kodewil>
+    </tujuan>
+  </barang>
+<barang>
+    <kode>M13</kode>
+    <satuan>g</satuan>
+    <harga>500</harga>
+    <asal>
+      <pt>pt XYZ</pt>
+      <kodewil>007</kodewil>
+    </asal>
+    <tujuan>
+      <pt>pt</pt>
+      <kodewil>0</kodewil>
+    </tujuan>
+  </barang>
+</logbarang>
