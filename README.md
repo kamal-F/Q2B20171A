@@ -3,3 +3,7 @@ kuis 2b 2017
 
 
 Ikuti petunjuk instruktur
+
+TIARA RIZKI WULANSARI
+D4 TEKNIK INFORMATIKA
+1154026

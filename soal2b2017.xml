@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<logbarang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="barang.xsd">
+<logbarang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="soal2b2017.xsd">
   <barang>
-    <kode>ppp</kode>
+    <kode></kode>
     <satuan>kg</satuan>
     <harga>1900</harga>
     <asal>
@@ -13,11 +13,10 @@
       <kodewil>100</kodewil>
     </tujuan>
   </barang>
-  
 <barang>
-    <kode>909</kode>
-    <satuan>liter</satuan>
-    <harga>5000</harga>
+    <kode>M13</kode>
+    <satuan>g</satuan>
+    <harga>500</harga>
     <asal>
       <pt>pt XYZ</pt>
       <kodewil>007</kodewil>
