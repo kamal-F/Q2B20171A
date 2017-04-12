@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsixml"/>
+    <xs:element name="logbarang">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="barang"/>
+            </xs:sequence>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="barang">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="kode"/>
+                <xs:element ref="satuan"/>
+                <xs:element ref="harga"/>
+                <xs:element ref="asal"/>
+                <xs:element ref="tujuan"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kode" type="xs:NMTOKEN"/>
+    <xs:element name="satuan">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:NCName">
+    			<xs:pattern value="liter"></xs:pattern>
+    			<xs:pattern value="kg"></xs:pattern>
+    			<xs:pattern value="pc"></xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="harga">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+    			<xs:minExclusive value="1000"></xs:minExclusive>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="asal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="pt"/>
+                <xs:element ref="kodewil"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tujuan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="pt"/>
+                <xs:element ref="kodewil"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="pt" type="xs:string"/>
+    <xs:element name="kodewil" type="xs:integer"/>
+</xs:schema>
